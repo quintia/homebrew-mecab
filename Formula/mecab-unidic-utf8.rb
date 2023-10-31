@@ -10,11 +10,6 @@ class MecabUnidicUtf8 < Formula
     regex(%r{value=.*?/rel/unidic/unidic-mecab/v?(\d+(?:\.\d+)+)["' >]}i)
   end
 
-  bottle do
-    rebuild 2
-    sha256 cellar: :any_skip_relocation, all: "879c531b56d96abefea1809837e3309816fd442381766dea3675424ba7c6772e"
-  end
-
   conflicts_with "mecab-unidic", because: "both install mecab dic"
   
   depends_on "mecab-utf8"
