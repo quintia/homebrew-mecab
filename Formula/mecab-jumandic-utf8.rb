@@ -1,4 +1,4 @@
-class MecabJumandic < Formula
+class MecabJumandicUtf8 < Formula
   desc "See mecab"
   homepage "https://taku910.github.io/mecab/"
   url "https://www.mirrorservice.org/sites/distfiles.macports.org/mecab/mecab-jumandic-7.0-20130310.tar.gz"
